@@ -1,0 +1,4 @@
+proxies:
+  - {name: rackh1, server: id-rackhtj.bonds.id, port: 443, type: trojan, password: 389092d0-df5c-11ec-bc81-1239d0255272, skip-cert-verify: true, sni: p16-tiktokcdn-com.akamaized.net, network: ws, ws-opts: {path: /howdy, headers: {Host: p16-tiktokcdn-com.akamaized.net}}, udp: true}
+  - {name: rackh2, server: id-rackhtj.bonds.id, port: 443, type: trojan, password: c6383490-df5d-11ec-84e9-1239d0255272, skip-cert-verify: true, sni: p16-tiktokcdn-com.akamaized.net, network: ws, ws-opts: {path: /howdy, headers: {Host: p16-tiktokcdn-com.akamaized.net}}, udp: true}
+  - {name: rackh3, server: id-rackhtj.bonds.id, port: 443, type: trojan, password: 00e84300-df5e-11ec-b55a-1239d0255272, skip-cert-verify: true, sni: p16-tiktokcdn-com.akamaized.net, network: ws, ws-opts: {path: /howdy, headers: {Host: p16-tiktokcdn-com.akamaized.net}}, udp: true}
