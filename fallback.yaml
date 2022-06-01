@@ -1,6 +1,7 @@
 proxies:
   - {name: rackh2, server: id-rackhtj.bonds.id, port: 443, type: trojan, password: c6383490-df5d-11ec-84e9-1239d0255272, skip-cert-verify: true, sni: p16-tiktokcdn-com.akamaized.net, network: ws, ws-opts: {path: /howdy, headers: {Host: p16-tiktokcdn-com.akamaized.net}}, udp: true}
   - {name: ikd, server: idtj-ikd.bonds.id, port: 443, type: trojan, password: 19bb8b90-df5b-11ec-b883-1239d0255272, skip-cert-verify: true, sni: p16-tiktokcdn-com.akamaized.net, network: ws, ws-opts: {path: /howdy, headers: {Host: p16-tiktokcdn-com.akamaized.net}}, udp: true}
+  - {name: 7day, server: 0o.autosc.me, port: 443, type: vmess, uuid: d156b2b9-3f94-4bad-8e8f-19000b9cedae, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: p16-tiktokcdn-com.akamaized.net, network: grpc, grpc-opts: {grpc-service-name: GunService}, udp: true}
   - {name: rackh3, server: id-rackhtj.bonds.id, port: 443, type: trojan, password: 00e84300-df5e-11ec-b55a-1239d0255272, skip-cert-verify: true, sni: p16-tiktokcdn-com.akamaized.net, network: ws, ws-opts: {path: /howdy, headers: {Host: p16-tiktokcdn-com.akamaized.net}}, udp: true}
-  - {name: he, server: sg2.v2-ray.com, port: 443, type: vmess, uuid: 9dc0c6aa-39a1-46be-9938-85999e3c3498, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: p16-tiktokcdn-com.akamaized.net, network: ws, ws-opts: {path: /fastssh/bjbbabbs/62930da1d13c4/, headers: {Host: p16-tiktokcdn-com.akamaized.net}}, udp: true}
+
 
