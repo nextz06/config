@@ -5,4 +5,3 @@ proxies:
   - {name: rackh, server: id-rackhtj.bonds.id, port: 443, type: trojan, password: 7098f600-e3c1-11ec-b954-1239d0255272, skip-cert-verify: true, sni: p16-tiktokcdn-com.akamaized.net, network: ws, ws-opts: {path: /howdy, headers: {Host: p16-tiktokcdn-com.akamaized.net}}, udp: true}
   - {name: rackh2, server: id-rackhtj.bonds.id, port: 443, type: trojan, password: 9a386000-e3c1-11ec-9db4-1239d0255272, skip-cert-verify: true, sni: p16-tiktokcdn-com.akamaized.net, network: ws, ws-opts: {path: /howdy, headers: {Host: p16-tiktokcdn-com.akamaized.net}}, udp: true}
   - {name: jp 7, server: jpl-1.herbalv2ray.me, port: 443, type: vmess, uuid: 86a0eb4a-9eb3-4e04-97ab-ea1409433e98, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: p16-tiktokcdn-com.akamaized.net, network: ws, ws-opts: {path: /herbalserver, headers: {Host: p16-tiktokcdn-com.akamaized.net}}, udp: true}
-
