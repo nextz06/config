@@ -1,4 +1,6 @@
 proxies:
+  - {name: uninet, server: id1.v2-ray.com, port: 443, type: vmess, uuid: a9481600-ef36-402a-a0e5-5547bfd7b87c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: p16-tiktokcdn-com.akamaized.net, network: ws, ws-opts: {path: /fastssh/sasffj/629b5be6ec03a/, headers: {Host: p16-tiktokcdn-com.akamaized.net}}, udp: true}
+  - {name: sanggoro, server: id6.v2-ray.com, port: 443, type: vmess, uuid: f4f7252a-7100-48e7-a2e5-b0334e845c06, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: p16-tiktokcdn-com.akamaized.net, network: ws, ws-opts: {path: /fastssh/hjabjs/629b5c068b53c/, headers: {Host: p16-tiktokcdn-com.akamaized.net}}, udp: true}
 
 
 
