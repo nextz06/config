@@ -1,5 +1,5 @@
 proxies:
-  - {name: biznet, server: id-lb.sshkit.org, port: 443, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: p16-tiktokcdn-com.akamaized.net, network: ws, ws-opts: {path: /sshkit/vnbugb/6296ab29a5b5e/, headers: {Host: p16-tiktokcdn-com.akamaized.net}}, udp: true}
+  - {name: biznet 12, server: id-lb.sshkit.org, port: 443, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: p16-tiktokcdn-com.akamaized.net, network: ws, ws-opts: {path: /sshkit/hjanns/629ca1e32586c/, headers: {Host: p16-tiktokcdn-com.akamaized.net}}, udp: true}
   - {name: ikd, server: idtj-ikd.bonds.id, port: 443, type: trojan, password: 3de4ee00-e3c1-11ec-ab5a-1239d0255272, skip-cert-verify: true, sni: p16-tiktokcdn-com.akamaized.net, network: ws, ws-opts: {path: /howdy, headers: {Host: p16-tiktokcdn-com.akamaized.net}}, udp: true}
   - {name: rackh, server: id-rackhtj.bonds.id, port: 443, type: trojan, password: 7098f600-e3c1-11ec-b954-1239d0255272, skip-cert-verify: true, sni: p16-tiktokcdn-com.akamaized.net, network: ws, ws-opts: {path: /howdy, headers: {Host: p16-tiktokcdn-com.akamaized.net}}, udp: true}
 
