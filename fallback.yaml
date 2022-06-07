@@ -1,5 +1,4 @@
 proxies:
-  - {name: atha 14, server: idx-1.openv2ray.com, port: 443, type: vless, uuid: 4f17e173-4af9-5041-9662-f6c27e0decfd, cipher: auto, tls: true, skip-cert-verify: true, servername: p16-tiktokcdn-com.akamaized.net, network: ws, ws-opts: {path: /u/opentunnel.net-nextz, headers: {Host: p16-tiktokcdn-com.akamaized.net}}, udp: true}
   - {name: rackh, server: id-rackhtj.bonds.id, port: 443, type: trojan, password: 92d2ce90-e4cb-11ec-9e6f-1239d0255272, skip-cert-verify: true, sni: p16-tiktokcdn-com.akamaized.net, network: ws, ws-opts: {path: /howdy, headers: {Host: p16-tiktokcdn-com.akamaized.net}}, udp: true}
   - {name: ikd, server: idtj-ikd.bonds.id, port: 443, type: trojan, password: d50ac4d0-e4cb-11ec-9190-1239d0255272, skip-cert-verify: true, sni: p16-tiktokcdn-com.akamaized.net, network: ws, ws-opts: {path: /howdy, headers: {Host: p16-tiktokcdn-com.akamaized.net}}, udp: true}
 
