@@ -67,7 +67,7 @@ if [ "${EUID}" -ne 0 ]; then
 fi
 if [ "$(systemd-detect-virt)" == "openvz" ]; then
 		echo "OpenVZ is not supported"
-		exit 1
+		
 fi
 
 localip=$(hostname -I | cut -d\  -f1)
