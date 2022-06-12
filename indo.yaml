@@ -6,3 +6,4 @@ proxies:
   - {name: sg 17, server: w11.udpgw.com, port: 443, type: trojan, password: 76f82440-ea60-11ec-8608-1239d0255272, skip-cert-verify: true, sni: p16-tiktokcdn-com.akamaized.net, network: ws, ws-opts: {path: /howdy, headers: {Host: p16-tiktokcdn-com.akamaized.net}}, udp: true}
   - {name: sg2, server: w12.udpgw.com, port: 443, type: trojan, password: dd579fe0-ea5e-11ec-afdd-1239d0255272, skip-cert-verify: true, sni: p16-tiktokcdn-com.akamaized.net, network: ws, ws-opts: {path: /howdy, headers: {Host: p16-tiktokcdn-com.akamaized.net}}, udp: true}
 
+
