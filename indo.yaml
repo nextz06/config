@@ -3,5 +3,4 @@ proxies:
   - {name: ikd, server: idtj-ikd.bonds.id, port: 443, type: trojan, password: 58247280-ee1f-11ec-a07c-1239d0255272, skip-cert-verify: true, sni: p16-tiktokcdn-com.akamaized.net, network: ws, ws-opts: {path: /howdy, headers: {Host: p16-tiktokcdn-com.akamaized.net}}, udp: true}
   - {name: rackh, server: id-rackhtj.bonds.id, port: 443, type: trojan, password: 45501620-e4cc-11ec-853a-1239d0255272, skip-cert-verify: true, sni: p16-tiktokcdn-com.akamaized.net, network: ws, ws-opts: {path: /howdy, headers: {Host: p16-tiktokcdn-com.akamaized.net}}, udp: true}
   - {name: contabo, server: trojan-ctb-sg01.globalssh.xyz, port: 443, type: trojan, password: 123456, skip-cert-verify: true, sni: p16-tiktokcdn-com.akamaized.net, udp: true}
-  - {name: aws, server: zeus.zeaking.my.id, port: 443, type: vless, uuid: 98dbc51f-c0d9-4c47-9cc5-6bea95c3f66d, cipher: auto, tls: true, skip-cert-verify: true, servername: p16-tiktokcdn-com.akamaized.net, network: ws, ws-opts: {path: /vlessws, headers: {Host: p16-tiktokcdn-com.akamaized.net}}, udp: true}
-
+  - {name: aws, server: zeus.zeaking.my.id, port: 443, type: vmess, uuid: 449331a3-107c-4cd4-8694-771255efc905, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: p16-tiktokcdn-com.akamaized.net, network: ws, ws-opts: {path: /vmessws, headers: {Host: p16-tiktokcdn-com.akamaized.net}}, udp: true}
