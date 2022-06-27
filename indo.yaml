@@ -4,4 +4,4 @@ proxies:
   - {name: rackh, server: id-rackhtj.bonds.id, port: 443, type: trojan, password: 45501620-e4cc-11ec-853a-1239d0255272, skip-cert-verify: true, sni: p16-tiktokcdn-com.akamaized.net, network: ws, ws-opts: {path: /howdy, headers: {Host: p16-tiktokcdn-com.akamaized.net}}, udp: true}
   - {name: contabo, server: trojan-ctb-sg01.globalssh.xyz, port: 443, type: trojan, password: 123456, skip-cert-verify: true, sni: p16-tiktokcdn-com.akamaized.net, udp: true}
   - {name: aws, server: zeus.zeaking.my.id, port: 443, type: vmess, uuid: 738bd3ad-0e84-4b7e-9e3f-009d58ab4890, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: p16-tiktokcdn-com.akamaized.net, network: ws, ws-opts: {path: /vmessws, headers: {Host: p16-tiktokcdn-com.akamaized.net}}, udp: true}
-  - REJECT
+  
