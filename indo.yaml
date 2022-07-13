@@ -1,5 +1,5 @@
 proxies:
-  - {name: 🇮🇩 biznet 12, server: id-lb.sshkit.org, port: 443, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: p16-tiktokcdn-com.akamaized.net, network: ws, ws-opts: {path: /sshkit/1070846936hjgh/62c5ad3df202f/, headers: {Host: p16-tiktokcdn-com.akamaized.net}}, udp: true}
+  - {name: 🇮🇩 biznet 19, server: id-lb.sshkit.org, port: 443, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: p16-tiktokcdn-com.akamaized.net, network: ws, ws-opts: {path: /sshkit/fhvh/62cef07a16370/, headers: {Host: p16-tiktokcdn-com.akamaized.net}}, udp: true}
   - {name: 🇸🇬 contabo, server: trojan-ctb-sg01.globalssh.xyz, port: 443, type: trojan, password: 123456, skip-cert-verify: true, sni: p16-tiktokcdn-com.akamaized.net, udp: true}
   - {name: 🇮🇩 ikd, server: idtj-ikd.bonds.id, port: 443, type: trojan, password: 58247280-ee1f-11ec-a07c-1239d0255272, skip-cert-verify: true, sni: p16-tiktokcdn-com.akamaized.net, network: ws, ws-opts: {path: /howdy, headers: {Host: p16-tiktokcdn-com.akamaized.net}}, udp: true}
 
