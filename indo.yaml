@@ -3,5 +3,6 @@ proxies:
   - {name: 🇸🇬 contabo, server: trojan-ctb-sg01.globalssh.xyz, port: 443, type: trojan, password: 123456, skip-cert-verify: true, sni: p16-tiktokcdn-com.akamaized.net, udp: true}
   - {name: 🇮🇩 ikd, server: idtj-ikd.bonds.id, port: 443, type: trojan, password: 58247280-ee1f-11ec-a07c-1239d0255272, skip-cert-verify: true, sni: p16-tiktokcdn-com.akamaized.net, network: ws, ws-opts: {path: /howdy, headers: {Host: p16-tiktokcdn-com.akamaized.net}}, udp: true}
   - {name: 🇮🇩 apik 28, server: id5.v2rayserv.com, port: 443, type: vmess, uuid: 6ce45b2b-b44f-4b05-900b-c44f15bc7a85, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: p16-tiktokcdn-com.akamaized.net, network: ws, ws-opts: {path: /sshocean, headers: {Host: p16-tiktokcdn-com.akamaized.net}}, udp: true}
+  - {name: 🇮🇩 atha 30, server: id2.v2-ray.com, port: 443, type: vmess, uuid: f4f7252a-7100-48e7-a2e5-b0334e845c06, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: p16-tiktokcdn-com.akamaized.net, network: ws, ws-opts: {path: /fastssh/ghgjv/62dc12f4e7b1a, headers: {Host: p16-tiktokcdn-com.akamaized.net}}, udp: true}
 
  
